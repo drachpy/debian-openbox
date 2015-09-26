@@ -1,7 +1,8 @@
 # openbox
-Debian + Openbox configuration
+Debian (add source.list as needed)/Ubuntu + Openbox configuration
 
 Installed:
+------------------
 - menu
 - obmenu
 - obconf
@@ -17,5 +18,27 @@ Installed:
 - git
 - make
 - linux-headers-$(uname -r)
+- lightdm
+- lightdm-gtk-greeter
+
+
+Quick guide:
+------------------
+
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install - menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany git make lightdm light-dm-greeter
+$ sudo apt-get install linux-headers-$(uname -r)
+$ mkdir ~/github
+$ cd ~/github
+$ git clone https://github.com/drachpy/openbox.git
+$ cd openbox
+$ cp .fehbg .conkyrc ~/
+$ cp -rf .config ~/
+$ sudo cp etc/default/grub /etc/default/grub
+$ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
+$ sudi init 6
+
+Check atom docs on how to install in your system...
 
 ![Openbox](https://d13pix9kaak6wt.cloudfront.net/background/users/d/r/a/drachpy_1442820278_13.png "Openbox")
