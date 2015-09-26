@@ -25,19 +25,19 @@ Installed:
 Quick guide:
 ------------------
 
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install - menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany git make lightdm light-dm-greeter
-$ sudo apt-get install linux-headers-$(uname -r)
-$ mkdir ~/github
-$ cd ~/github
-$ git clone https://github.com/drachpy/openbox.git
-$ cd openbox
-$ cp .fehbg .conkyrc ~/
-$ cp -rf .config ~/
-$ sudo cp etc/default/grub /etc/default/grub
-$ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
-$ sudi init 6
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ sudo apt-get install - menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany git make lightdm light-dm-greeter
+    $ sudo apt-get install linux-headers-$(uname -r)
+    $ mkdir ~/github
+    $ cd ~/github
+    $ git clone https://github.com/drachpy/openbox.git
+    $ cd openbox
+    $ cp .fehbg .conkyrc ~/
+    $ cp -rf .config ~/
+    $ sudo cp etc/default/grub /etc/default/grub
+    $ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
+    $ sudi init 6
 
 Check atom docs on how to install in your system...
 
