@@ -47,8 +47,31 @@ Setting up atom with vim-mode and ex-mode:
     https://github.com/atom/vim-mode
     https://github.com/lloeki/ex-mode
 
+Shortcuts
+------------------
+
+    C-A-space   Show root-menu - I seldom use this usually you can just use xterm.
+    C-A-arrow   Change workspace
+    C-A-w       Web browser (iceweasel) - you can also install chromium but up to you
+    C-A-e       Editor (geany) - basic editor
+    C-A-r       Run a program (gmrun)
+    C-A-t       Terminal (gnome-terminal) - For most of the work
+    C-A-a       Atom Editor (atom) - if you think you are still not getting vim/nvim to work as you like it.
+    C-A-f       File Manager (thunar)
+    C-A-x       Alternative Terminal (xterm) - Yes, separate term usually for launching apps (i.e. scripts, python apps)
+
+Other notes:
+------------------
+1. See ~/.fehbg for the wallpaper config
+2. Use obmenu to manage your root-menu (right-click)
+
+
+#Screenshot
 
 ![Openbox](https://d13pix9kaak6wt.cloudfront.net/background/users/d/r/a/drachpy_1442820278_13.png "Openbox")
+
+* you may notice that the memory consumption is huge. This is because I was doing some webapp and test pages in browsers. But you should usually have it around 120-150MiB.
+
 
 #Help me help you
 If you found any discrepancies specially deadlinks. Please update it as needed or email me at drachpy{at}gmail{dot}com.
