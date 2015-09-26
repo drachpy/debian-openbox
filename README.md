@@ -37,8 +37,18 @@ Quick guide:
     $ cp -rf .config ~/
     $ sudo cp etc/default/grub /etc/default/grub
     $ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
-    $ sudi init 6
+    $ sudo init 6
 
-Check atom docs on how to install in your system...
+Atom
+------------------
+Setting up atom with vim-mode and ex-mode:
+
+    https://github.com/atom/atom
+    https://github.com/atom/vim-mode
+    https://github.com/lloeki/ex-mode
+
 
 ![Openbox](https://d13pix9kaak6wt.cloudfront.net/background/users/d/r/a/drachpy_1442820278_13.png "Openbox")
+
+#Help me help you
+If you found any discrepancies specially deadlinks. Please update it as needed or email me at drachpy{at}gmail{dot}com.
