@@ -27,12 +27,14 @@ Quick guide:
 
     $ sudo apt-get update
     $ sudo apt-get upgrade
-    $ sudo apt-get install - menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany git make lightdm light-dm-greeter
-    $ sudo apt-get install linux-headers-$(uname -r)
-    $ mkdir ~/github
-    $ cd ~/github
+    $ sudo apt-get install git
+    $ mkdir ~/projects 
+    $ mkdir ~/projects/github
+    $ cd ~/projects/github
     $ git clone https://github.com/drachpy/openbox.git
     $ cd openbox
+    $ sudo apt-get install menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany lightdm lightdm-gtk-greeter
+    $ sudo apt-get install gcc make linux-headers-$(uname -r)
     $ cp .fehbg .conkyrc ~/
     $ cp -rf .config ~/
     $ sudo cp etc/default/grub /etc/default/grub
