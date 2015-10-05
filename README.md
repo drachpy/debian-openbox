@@ -1,8 +1,9 @@
 # openbox
-Debian (add source.list as needed)/Ubuntu + Openbox configuration
+Debian server (add source.list as needed)/Ubuntu server + Openbox configuration
 
 Installed:
 ------------------
+- xorg
 - menu
 - obmenu
 - obconf
@@ -33,13 +34,16 @@ Quick guide:
     $ cd ~/projects/github
     $ git clone https://github.com/drachpy/openbox.git
     $ cd openbox
-    $ sudo apt-get install menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany lightdm lightdm-gtk-greeter
+    $ sudo apt-get install xorg menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
     $ sudo apt-get install gcc make linux-headers-$(uname -r)
     $ cp .fehbg .conkyrc ~/
     $ cp -rf .config ~/
     $ sudo cp etc/default/grub /etc/default/grub
     $ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
     $ sudo init 6
+
+Note: if linux-headers-$(uname -r) does not work for you, just use linux-headers-generic.
+
 
 Atom
 ------------------
