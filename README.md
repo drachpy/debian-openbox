@@ -1,6 +1,9 @@
 # openbox
 Debian server (add source.list as needed)/Ubuntu server + Openbox configuration
 
+Note:
+During Software selection, untick [] Debian Desktop Environment and [] Printer server.
+
 Installed:
 ------------------
 - xorg
