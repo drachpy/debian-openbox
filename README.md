@@ -15,6 +15,8 @@ Installed:
 - geany
 - atom
 - git
+- gitk
+- meld
 - make
 - linux-headers-$(uname -r)
 
