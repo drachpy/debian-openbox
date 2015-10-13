@@ -13,6 +13,7 @@ Installed:
 - tint2
 - conky
 - gmrun
+- feh
 - gnome-terminal
 - iceweasel
 - thunar
@@ -39,7 +40,7 @@ Quick guide:
     $ cd ~/projects/github
     $ git clone https://github.com/drachpy/openbox.git
     $ cd openbox
-    $ sudo apt-get install xorg menu obmenu obconf tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
+    $ sudo apt-get install xorg menu obmenu obconf feh tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
     $ sudo apt-get install gcc make linux-headers-$(uname -r)
     $ cp .fehbg .conkyrc ~/
     $ cp -rf .config ~/
