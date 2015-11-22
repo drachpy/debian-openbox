@@ -56,7 +56,8 @@ SSH
 ------------------
 1. Keep alive
 ```
-    $ sudo vim ~/.ssh/config
+    OSX: $ sudo vim ~/.ssh/config
+    Linux: $ sudo vim /etc/ssh/ssh_config
 ```
 
 2. Add the following
