@@ -51,6 +51,15 @@ Quick guide:
 Note: if linux-headers-$(uname -r) does not work for you, just use linux-headers-generic.
 
 
+SSH
+------------------
+1. Keep alive
+    $ sudo vim ~/.ssh/config
+2. Add the following
+    Host *
+      ServerAliveInterval 60
+
+
 Atom
 ------------------
 Setting up atom with vim-mode and ex-mode:
@@ -83,6 +92,7 @@ Other notes:
 ![Openbox](https://d13pix9kaak6wt.cloudfront.net/background/users/d/r/a/drachpy_1442820278_13.png "Openbox")
 
 * you may notice that the memory consumption is huge. This is because I was doing some webapp and test pages in browsers. But you should usually have it around 120-150MiB.
+
 
 
 #Help me help you
