@@ -61,7 +61,7 @@ SSH
 
     Host *
     
-      ServerAliveInterval 60
+        ServerAliveInterval 60
 
 
 Atom
