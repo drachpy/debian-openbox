@@ -31,22 +31,23 @@ Installed:
 
 Quick guide:
 ------------------
-
-    $ sudo apt-get update
-    $ sudo apt-get upgrade
-    $ sudo apt-get install git
-    $ mkdir ~/projects 
-    $ mkdir ~/projects/github
-    $ cd ~/projects/github
-    $ git clone https://github.com/drachpy/openbox.git
-    $ cd openbox
-    $ sudo apt-get install xorg menu obmenu obconf feh tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
-    $ sudo apt-get install gcc make linux-headers-$(uname -r)
-    $ cp .fehbg .conkyrc ~/
-    $ cp -rf .config ~/
-    $ sudo cp etc/default/grub /etc/default/grub
-    $ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
-    $ sudo init 6
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install git
+$ mkdir ~/projects 
+$ mkdir ~/projects/github
+$ cd ~/projects/github
+$ git clone https://github.com/drachpy/openbox.git
+$ cd openbox
+$ sudo apt-get install xorg menu obmenu obconf feh tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
+$ sudo apt-get install gcc make linux-headers-$(uname -r)
+$ cp .fehbg .conkyrc ~/
+$ cp -rf .config ~/
+$ sudo cp etc/default/grub /etc/default/grub
+$ sudo cp etc/X11/xorg.conf /etc/X11/xorg.conf
+$ sudo init 6
+```
 
 Note: if linux-headers-$(uname -r) does not work for you, just use linux-headers-generic.
 
@@ -54,36 +55,38 @@ Note: if linux-headers-$(uname -r) does not work for you, just use linux-headers
 SSH
 ------------------
 1. Keep alive
-
+```
     $ sudo vim ~/.ssh/config
-    
+```
+
 2. Add the following
-
-    Host *
-    
-        ServerAliveInterval 60
-
+```
+Host *
+  ServerAliveInterval 60
+```
 
 Atom
 ------------------
 Setting up atom with vim-mode and ex-mode:
-
-    https://github.com/atom/atom
-    https://github.com/atom/vim-mode
-    https://github.com/lloeki/ex-mode
+```
+https://github.com/atom/atom
+https://github.com/atom/vim-mode
+https://github.com/lloeki/ex-mode
+```
 
 Shortcuts
 ------------------
-
-    C-A-space   Show root-menu - I seldom use this usually you can just use xterm.
-    C-A-arrow   Change workspace
-    C-A-w       Web browser (iceweasel) - you can also install chromium but up to you
-    C-A-e       Editor (geany) - basic editor
-    C-A-r       Run a program (gmrun)
-    C-A-t       Terminal (gnome-terminal) - For most of the work
-    C-A-a       Atom Editor (atom) - if you think you are still not getting vim/nvim to work as you like it.
-    C-A-f       File Manager (thunar)
-    C-A-x       Alternative Terminal (xterm) - Yes, separate term usually for launching apps (i.e. scripts, python apps)
+```
+C-A-space   Show root-menu - I seldom use this usually you can just use xterm.
+C-A-arrow   Change workspace
+C-A-w       Web browser (iceweasel) - you can also install chromium but up to you
+C-A-e       Editor (geany) - basic editor
+C-A-r       Run a program (gmrun)
+C-A-t       Terminal (gnome-terminal) - For most of the work
+C-A-a       Atom Editor (atom) - if you think you are still not getting vim/nvim to work as you like it.
+C-A-f       File Manager (thunar)
+C-A-x       Alternative Terminal (xterm) - Yes, separate term usually for launching apps (i.e. scripts, python apps)
+```
 
 Other notes:
 ------------------
