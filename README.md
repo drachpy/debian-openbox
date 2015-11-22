@@ -56,9 +56,11 @@ SSH
 1. Keep alive
 
     $ sudo vim ~/.ssh/config
+    
 2. Add the following
 
     Host *
+    
       ServerAliveInterval 60
 
 
