@@ -54,8 +54,10 @@ Note: if linux-headers-$(uname -r) does not work for you, just use linux-headers
 SSH
 ------------------
 1. Keep alive
+
     $ sudo vim ~/.ssh/config
 2. Add the following
+
     Host *
       ServerAliveInterval 60
 
