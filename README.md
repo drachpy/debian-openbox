@@ -27,6 +27,8 @@ Installed:
 - linux-headers-$(uname -r)
 - lightdm
 - lightdm-gtk-greeter
+- alsa-base
+- alsa-utils
 
 
 Quick guide:
@@ -40,7 +42,7 @@ Quick guide:
     $ cd ~/projects/github
     $ git clone https://github.com/drachpy/openbox.git
     $ cd openbox
-    $ sudo apt-get install xorg menu obmenu obconf feh tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
+    $ sudo apt-get install xorg menu obmenu obconf feh tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter alsa-base alsa-utils
     $ sudo apt-get install gcc make linux-headers-$(uname -r)
     $ cp .fehbg .conkyrc ~/
     $ cp -rf .config ~/
@@ -49,6 +51,13 @@ Quick guide:
     $ sudo init 6
 
 Note: if linux-headers-$(uname -r) does not work for you, just use linux-headers-generic.
+
+
+Sound
+------------------
+To adjust your sounds (ALSA), open terminal and run:
+
+    $ alsamixer
 
 
 Atom
