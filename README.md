@@ -27,8 +27,12 @@ Installed:
 - linux-headers-$(uname -r)
 - lightdm
 - lightdm-gtk-greeter
+After base :
 - alsa-base
 - alsa-utils
+- golang
+- nodejs
+- npm
 
 
 Quick guide:
