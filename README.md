@@ -44,7 +44,7 @@ $ sudo apt-get install git
 $ mkdir ~/projects 
 $ mkdir ~/projects/github
 $ cd ~/projects/github
-$ git clone https://github.com/drachpy/openbox.git
+$ git clone https://github.com/drachpy/debian-openbox.git
 $ cd openbox
 $ sudo apt-get install xorg menu obmenu obconf feh tint2 conky gmrun gnome-terminal iceweasel thunar vim geany xterm lightdm lightdm-gtk-greeter
 $ sudo apt-get install gcc make linux-headers-$(uname -r)
