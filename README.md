@@ -1,3 +1,8 @@
+# Take note
+_I would suggest to go and use BunsenLabs. It is pretty slick although I do not use openbox anymore. But I still use BL and then install i3._
+Go to: https://www.bunsenlabs.org/
+
+
 # openbox
 Debian server (add source.list as needed)/Ubuntu server + Openbox configuration
 
