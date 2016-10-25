@@ -2,6 +2,9 @@
 _I would suggest to go and use BunsenLabs. It is pretty slick although I do not use openbox anymore. But I still use BL and then install i3._
 Go to: https://www.bunsenlabs.org/
 
+Got tired of wallpapers? 
+Add this to your i3 config. Just a plain dark lazy blue colour.
+exec --no-startup-id xsetroot -solid "#002244"
 
 # openbox
 Debian server (add source.list as needed)/Ubuntu server + Openbox configuration
